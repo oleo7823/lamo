@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ラモ語のコーパス / 紹介</title>
+    <link rel="icon" href="./image/favicon-16x16.png" />
+    <link rel="stylesheet" href="./style/00 nav_style.css" />
+    <link rel="stylesheet" href="./style/00 artical_style.css" />
+    <link rel="stylesheet" href="./style/02 album_style.css">
+    <link rel="stylesheet" href="./style/00 table_style.css">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: navajowhite;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav li#intro {
+            background-color: brown;
+            border-bottom: -4px solid gold;
+        }
+
+        nav li#intro a {
+            color: gold;
+        }
+
+        nav #jp a {
+            color: brown;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ul>(li[class="nav-item"]>a[href="#"][class="nav-link"])*5     -->
+
+    <nav>
+        <header>ラモ語のコーパス</header>
+        <img src="./image/01 homepage logo.png" alt="Logo" width="150px" height="150px">
+        <ul class="lang">
+            <li id="en"><a href="./02 introduction_en.html">English</a></li>
+            <li id="fr"><a href="./02 introduction_fr.html">Français</a></li>
+            <li id="cn"><a href="./02 introduction_cn.html">中文</a></li>
+            <li id="jp"><a href="./02 introduction_jp.html">日本語</a></li>
+            <li id="bo"><a href="#">བོད་སྐད་</a></li>
+        </ul>
+        <ul class="nav">
+            <li class="nav-item" id="home"><a href="./01 homepage_jp.html" class="nav-link">ホームページ</a></li>
+            <li class="nav-item" id="intro"><a href="./02 introduction_jp.html" class="nav-link" type="_blank">紹介</a>
+            </li>
+            <li class="nav-item" id="pho"><a href="#" class="nav-link">音声&amp;音韻</a></li>
+            <li class="nav-item" id="morph"><a href="#" class="nav-link">形態&amp;統語</a></li>
+            <li class="nav-item" id="vocab"><a href="#" class="nav-link">語彙</a></li>
+            <li class="nav-item" id="narr"><a href="#" class="nav-link">物語</a></li>
+            <li class="nav-item" id="conver"><a href="#" class="nav-link">会話</a></li>
+        </ul>
+    </nav>
+
+    <div class="intro">
+        <p>このセクションでは、まずチベット自治区東部で話されている4つの<b>非チベット系チベット・ビルマ語族</b>の言語を紹介します。次に、ラモ語の基本情報、特にその2つの方言の地理的分布と系統的な所属について焦点を当てます。
+        </p>
+    </div>
+
+    <div id="image-container">
+        <img id="displayedImage" src="./image/02 Intro 01.jpg" alt="The landscape of the Dobbar Township">
+        <div class="button-container">
+            <button class="button" id="prevBtn" onclick="showPrevImage()">前</button>
+            <button class="button" id="nextBtn" onclick="showNextImage()">次</button>
+        </div>
+        <!-- Hidden container to store image paths -->
+        <div id="imagePaths" style="display: none;">
+            <span>./image/02 Intro 01.jpg</span>
+            <span>./image/02 Intro 02.jpg</span>
+            <span>./image/02 Intro 03.jpg</span>
+        </div>
+    </div>
+    <script src="./style/02 album_js.js"></script>
+
+    <div class="cont-container">
+        <article>
+            <section class="outline">
+                <h3>目次</h3>
+                <ul>
+                    <p><a href="#t1">チベットの四つの非チベット系チベット・ビルマ語</a></p>
+                    <p><a href="#t2">Two varieties of Lamo</a></p>
+                    <p><a href="#t3">Genealogical affiliation</a></p>
+                    <p><a href="#t4">Bibliography</a></p>
+                </ul>
+            </section>
+            <script src="./style/00 outline_sticky.js"></script>
+
+            <section class="content">
+                <h2 id="t1">チベットの四つの非チベット系チベット・ビルマ語</h2>
+                <p><i>「昌都地区志」</i>(<a href="#biblio4">西藏昌都地区地方志编纂委员会, 2005, p.
+                        819</a>)は、チャムド市にはカンバチベット語とはお互いに理解できない三つの方言が存在することを記録しています。これらの方言は、チャキャブ県（བྲག་གཡབ་རྫོང, 察雅县,
+                    chàyǎ xiàn）の<b>则松话</b>（則松話）、マルカム県（སྨར་ཁམས་རྫོང, 芒康县, mángkāng
+                    xiàn）の<b>如美话</b>（如美話）、そしてゾガン県（མཛོ་སྒང་རྫོང, 左贡县, zuǒgòng xiàn）の<b>东坝话</b>（東坝話）です。<a
+                        href="#biblio1">鈴木とNyima（2016年）</a>は、これらの非チベット系チベット・ビルマ語をチャムド市で初めて報告しました：<i>'Bo skad</i>と<i>sMar
+                        skad</i>。<a
+                        href="#biblio2">Nyimaと鈴木（2019年）</a>は、四つの言語島を特定しました：<b>Lamo</b>、<b>gSerkhu</b>、<b>Larong
+                        sMar</b>、および<b>Drag-yab sMar</b>。</p>
+                <p><b>Larong sMar</b>は、ゾガン県とマルカム県の国境地域で17,000人に話されています。<b>Drag-yab
+                        sMar</b>は、チャキャブ県で約20,000人に話されています。これら二つの言語は<i>sMar
+                        skad</i>に対応し、フランスの東洋言語文明研究所（INALCO）の博士課程学生である趙昊亮氏によって文献化されています。</p>
+                <p>しかし、<b>ラモ語</b>の話者数はさらに少なく、三千人のみで、主にゾガン県に集中しています。<b>gSerkhu</b>の状況はさらに悪化しており、察隅県（རྫ་ཡུལ་རྫོང, 察隅县,
+                    cháyú xiàn）の400人のみが話者です。林芝市（ཉིང་ཁྲི་གྲོང་ཁྱེར, 林芝市, línzhī
+                    shì）の状況も厳しいです。これらの言語が直面している脅威を考慮すると、gSerkhuとLamoは即時の文献化と包括的な説明が必要です。国境地帯に近いため、gSerkhuが話されている地域での長期的な研究は困難です。したがって、このデータベースは<b>ラモ語</b>の文献化と記述に焦点を当てています。
+                </p>
+            </section>
+
+            <section class="content">
+                <h2 id="t2">ラモ語の二つの方言</h2>
+                <p>ラモ語は主に東坝乡（སྟོབས་འབར་ཤང་, 东坝乡, dōngbà xiāng）と中林卡乡（ཀྲུང་གླིང་ཁ་ཤང་, 中林卡乡, zhōnglínkǎ xiāng）の二つの町で話されています。</p>
+                <p>ラモ語は、ラモ方言とラメイ方言の二つの方言から成り、/la.mo/ と /la.mɛ/ という記号で表されます。これらの二つの方言は相互に理解可能であり、音声と語彙の違いがあります。<a href="#biblio3">Suzuki & Nyima（2021年、p. 26）</a>によって識別されました。</p>
+                <p>地元住民によると、ラモ方言は東坝乡の七つの村のうち四つの村で話されています。これらの村は、軍拥、格瓦、普卡、そして加坝です。一方、ラメイ方言は中林卡乡の十三の村のうち三つの村で話されています。これらの村は、石字卡、落巴、そして若巴です。</p>
+                <p>東坝乡の話者数は、2023年7月の初期フィールドワークで確認されたもので、次の表に詳細が示されています。</p>
+                <table title="東坝乡の人口">
+                    <caption>東坝乡の人口</caption>
+                    <tr>
+                        <th>村</th>
+                        <td>軍拥村</td>
+                        <td>格瓦村</td>
+                        <td>普卡村</td>
+                        <td>加坝村</td>
+                        <th>合計</th>
+                    </tr>
+                    <tr>
+                        <th>世帯数</th>
+                        <td>86</td>
+                        <td>54</td>
+                        <td>54</td>
+                        <td>96</td>
+                        <th>290</th>
+                    </tr>
+                    <tr>
+                        <th>人口</th>
+                        <td>337</td>
+                        <td>423</td>
+                        <td>313</td>
+                        <td>552</td>
+                        <th>1625</th>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="content">
+                <h2 id="t3">Genealogical affiliation</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non totam hic quas expedita in tempora
+                    quaerat magni praesentium cumque voluptate nam delectus earum, temporibus iure! Quam ea sed
+                    corrupti?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minus delectus assumenda cumque hic
+                    ex non ratione recusandae officiis, necessitatibus quaerat blanditiis libero fugiat. Doloremque
+                    quaerat quibusdam nostrum fugit cum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores provident repellendus, saepe
+                    adipisci in vero dignissimos iure esse eveniet, ipsum facere amet exercitationem quasi blanditiis
+                    quisquam dolore, obcaecati explicabo illum.</p>
+            </section>
+
+            <section class="content">
+                <h2 id="t4">Bibilography</h2>
+                <p class="biblio" id="biblio1">Nyima, T., & Suzuki, H. (2019). Newly recognised languages in Chamdo:
+                    Geography, culture, history, and language. Linguistics of the Tibeto-Burman Area, 42(1), 38-81.</p>
+                <p class="biblio" id="biblio2">Suzuki, H., & Nyima, T. (2016). 'Bo skad, a newly recognised non-Tibetic
+                    variety spoken in mDzo sgang, TAR a brief introduction to its sociolinguistic situation, sounds, and
+                    vocabulary. 4th Workshop on Sino-Tibetan Languages of Southwest China, Seattle.</p>
+                <p class="biblio" id="biblio3">Suzuki, H., & Nyima, T. (2021). Evidential system of copulative and
+                    existential verbs in Lamo. Grammatical Phenomena of Sino-Tibetan Languages, 4, 258-287.</p>
+                <p class="biblio" id="biblio4">西藏昌都地区地方志编纂委员会. (2005). 昌都地区志 下. 北京：方志出版社.</p>
+            </section>
+        </article>
+    </div>
+
+    <hr />
+    <footer>
+        <p align="center">&copy; The Corpus of the Lamo Language. All rights reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拉莫语语料库 / 简介</title>
+    <link rel="icon" href="./image/favicon-16x16.png" />
+    <link rel="stylesheet" href="./style/00 nav_style.css" />
+    <link rel="stylesheet" href="./style/00 artical_style.css" />
+    <link rel="stylesheet" href="./style/02 album_style.css">
+    <link rel="stylesheet" href="./style/00 table_style.css">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: navajowhite;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav li#intro {
+            background-color: brown;
+            border-bottom: -4px solid gold;
+        }
+
+        nav li#intro a {
+            color: gold;
+        }
+
+        nav #cn a {
+            color: brown;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ul>(li[class="nav-item"]>a[href="#"][class="nav-link"])*5     -->
+
+    <nav>
+        <header>拉莫语语料库</header>
+        <img src="./image/01 homepage logo.png" alt="Logo" width="150px" height="150px">
+        <ul class="lang">
+            <li id="en"><a href="./02 introduction_en.html">English</a></li>
+            <li id="fr"><a href="./02 introduction_fr.html">Français</a></li>
+            <li id="cn"><a href="./02 introduction_cn.html">中文</a></li>
+            <li id="jp"><a href="./02 introduction_jp.html">日本語</a></li>
+            <li id="bo"><a href="#">བོད་སྐད་</a></li>
+        </ul>
+        <ul class="nav">
+            <li class="nav-item" id="home"><a href="./01 homepage_cn.html" class="nav-link">首页</a></li>
+            <li class="nav-item" id="intro"><a href="./02 introduction_cn.html" class="nav-link" type="_blank">简介</a>
+            </li>
+            <li class="nav-item" id="pho"><a href="#" class="nav-link">语音 &amp; 音系</a>
+            </li>
+            <li class="nav-item" id="morph"><a href="#" class="nav-link">形态句法</a></li>
+            <li class="nav-item" id="vocab"><a href="#" class="nav-link">词汇</a></li>
+            <li class="nav-item" id="narr"><a href="#" class="nav-link">叙述</a></li>
+            <li class="nav-item" id="conver"><a href="#" class="nav-link">对话</a></li>
+        </ul>
+    </nav>
+
+    <div class="intro">
+        <p>本节首先介绍了在西藏自治区东部地区使用的四种<b>非藏语的藏缅语</b>。接下来重点介绍了拉莫语言的基本信息，包括其两个方言的地理分布及其谱系归属。 </p>
+    </div>
+
+    <div id="image-container">
+        <img id="displayedImage" src="./image/02 Intro 01.jpg" alt="The landscape of the Dobbar Township">
+        <div class="button-container">
+            <button class="button" id="prevBtn" onclick="showPrevImage()">上一张</button>
+            <button class="button" id="nextBtn" onclick="showNextImage()">下一张</button>
+        </div>
+        <!-- Hidden container to store image paths -->
+        <div id="imagePaths" style="display: none;">
+            <span>./image/02 Intro 01.jpg</span>
+            <span>./image/02 Intro 02.jpg</span>
+            <span>./image/02 Intro 03.jpg</span>
+        </div>
+    </div>
+    <script src="./style/02 album_js.js"></script>
+
+    <div class="cont-container">
+        <article>
+            <section class="outline">
+                <h3>目录</h3>
+                <ul>
+                    <p><a href="#t1">西藏的四种非藏语的藏缅语</a></p>
+                    <p><a href="#t2">两个方言</a></p>
+                    <p><a href="#t3">谱系归属</a></p>
+                    <p><a href="#t4">参考文献</a></p>
+                </ul>
+            </section>
+            <script src="./style/00 outline_sticky.js"></script>
+
+            <section class="content">
+                <h2 id="t1">西藏的四种非藏语的藏缅语</h2>
+                <p>《昌都地区志》(<a href="#biblio4">西藏昌都地区地方志编纂委员会, 2005, p.819</a>)记录了在昌都地区有三种与康巴藏语不相通的方言。这些方言是察雅县（བྲག་གཡབ་རྫོང）的<b>则松话</b>，芒康县（སྨར་ཁམས་རྫོང）的<b>如美话</b>，以及左贡县（མཛོ་སྒང་རྫོང）的<b>东坝话</b>。<a href="#biblio1">Suzuki & Nyima（2016年）</a>首次报道了昌都的这些非藏语的藏缅语：<i>'Bo skad</i>和<i>sMar skad</i>。<a href="#biblio2">Nyima & Suzuki（2019年）</a>确定了四个语言岛：<b>Lamo</b>、<b>gSerkhu</b>、<b>Larong sMar</b>和<b>Drag-yab sMar</b>。</p>
+                <p><b>Larong sMar</b>在左贡县和芒康县边界地区由17000名使用者讲述。<b>Drag-yab sMar</b>在察雅县由大约20000名使用者讲述。这两种语言对应于<i>sMar skad</i>，并由法国东方语言文化学院（INALCO）的博士生赵昊亮先生记录。</p>
+                <p>然而，<b>拉莫语</b>的使用者数量少得多，仅有3000人hao，主要在左贡县。而<b>gSerkhu</b>的情况更为严重，只有400人居住在察隅县（རྫ་ཡུལ་རྫོང་），林芝市（ཉིང་ཁྲི་གྲོང་ཁྱེར）。鉴于这些语言面临的威胁，gSerkhu和Lamo需要立即进行文献记录和全面描述。由于其靠近边境地区，进入gSerkhu使用区域进行长期研究十分困难。因此，这个数据库重点关注<b>拉莫语</b>的记录和描述。</p>
+            </section>
+
+            <section class="content">
+                <h2 id="t2">两个方言</h2>
+                <p>拉莫语主要在两个乡镇使用：东坝乡（སྟོབས་འབར་ཤང་）和中林卡乡（ཀྲུང་གླིང་ཁ་ཤང་）。</p>
+                <p>拉莫语包括两个方言，分别称为拉莫方言和拉美方言，标记为 /la.mo/ 和 /la.mɛ/，如<a href="#biblio3">Suzuki & Nyima（2021年，第26页）</a>所识别。这两个变体之间可以相互理解，但在语音和词汇上有所不同。</p>
+                <p>根据当地居民的说法，拉莫方言在东坝乡的七个村庄中的四个村庄使用。这些村庄是军拥、格瓦、普卡和加坝。而拉美方言则在中林卡乡的十三个村庄中的三个村庄使用，这些村庄是十字卡、洛巴和若巴。</p>
+                <p>在我2023年7月的初步田野调查中，确证了东坝乡的确切话者人数，如下表所示。</p>
+                <table title="东坝乡人口">
+                    <caption>东坝乡人口</caption>
+                    <tr>
+                        <th>村</th>
+                        <td>军拥村</td>
+                        <td>格瓦村</td>
+                        <td>普卡村</td>
+                        <td>加坝村</td>
+                        <th>总计</th>
+                    </tr>
+                    <tr>
+                        <th>家庭数</th>
+                        <td>86</td>
+                        <td>54</td>
+                        <td>54</td>
+                        <td>96</td>
+                        <th>290</th>
+                    </tr>
+                    <tr>
+                        <th>人口</th>
+                        <td>337</td>
+                        <td>423</td>
+                        <td>313</td>
+                        <td>552</td>
+                        <th>1625</th>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="content">
+                <h2 id="t3">谱系归属</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non totam hic quas expedita in tempora
+                    quaerat magni praesentium cumque voluptate nam delectus earum, temporibus iure! Quam ea sed
+                    corrupti?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minus delectus assumenda cumque hic
+                    ex non ratione recusandae officiis, necessitatibus quaerat blanditiis libero fugiat. Doloremque
+                    quaerat quibusdam nostrum fugit cum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores provident repellendus, saepe
+                    adipisci in vero dignissimos iure esse eveniet, ipsum facere amet exercitationem quasi blanditiis
+                    quisquam dolore, obcaecati explicabo illum.</p>
+            </section>
+
+            <section class="content">
+                <h2 id="t4">参考文献</h2>
+                <p class="biblio" id="biblio1">Nyima, T., & Suzuki, H. (2019). Newly recognised languages in Chamdo:
+                    Geography, culture, history, and language. Linguistics of the Tibeto-Burman Area, 42(1), 38-81.</p>
+                <p class="biblio" id="biblio2">Suzuki, H., & Nyima, T. (2016). 'Bo skad, a newly recognised non-Tibetic
+                    variety spoken in mDzo sgang, TAR a brief introduction to its sociolinguistic situation, sounds, and
+                    vocabulary. 4th Workshop on Sino-Tibetan Languages of Southwest China, Seattle.</p>
+                <p class="biblio" id="biblio3">Suzuki, H., & Nyima, T. (2021). Evidential system of copulative and
+                    existential verbs in Lamo. Grammatical Phenomena of Sino-Tibetan Languages, 4, 258-287.</p>
+                <p class="biblio" id="biblio4">西藏昌都地区地方志编纂委员会. (2005). 昌都地区志 下. 北京：方志出版社.</p>
+            </section>
+        </article>
+    </div>
+
+    <hr />
+    <footer>
+        <p align="center">&copy; The Corpus of the Lamo Language. All rights reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>

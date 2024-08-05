@@ -1,0 +1,75 @@
+/* Introduction of the webpage */
+div.intro {
+    margin: 10px;
+}
+
+div.intro p{
+    font-size: 22px;
+    line-height: 1.5;
+    text-indent: 2em;
+}
+
+h2, h3 {
+    scroll-margin-top: 180px; /* Adjust this value based on the height of your sticky header */
+    color: brown;
+    margin: 5px 0;
+}
+
+/* Article style setting */
+article {
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 20px;
+    width: 80%;
+    margin-top: 10px;
+    background-color: burlywood;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Outline scrolling setting */
+section.outline {
+    width: 12%;
+    margin-left: 5px;
+    margin-top: 20px;
+    position: absolute;
+    line-height: 1.5;
+    top: 0;
+    left: 0;
+}
+
+section.outline a {
+    /* text-decoration: none; */
+    color: black;
+}
+
+/* Main content setting */
+section.content {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+section.content p {
+    font-size: 22px;
+    line-height: 1.5;
+    text-indent: 2em;
+}
+
+article section .biblio {
+    text-indent: -2em;
+    padding: 0 2em;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}

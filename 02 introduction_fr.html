@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Corpus de la langue Lamo / Introduction</title>
+    <link rel="icon" href="./image/favicon-16x16.png" />
+    <link rel="stylesheet" href="./style/00 nav_style.css" />
+    <link rel="stylesheet" href="./style/00 artical_style.css" />
+    <link rel="stylesheet" href="./style/02 album_style.css">
+    <link rel="stylesheet" href="./style/00 table_style.css">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: navajowhite;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav li#intro {
+            background-color: brown;
+            border-bottom: -4px solid gold;
+        }
+
+        nav li#intro a {
+            color: gold;
+        }
+
+        nav #fr a {
+            color: brown;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ul>(li[class="nav-item"]>a[href="#"][class="nav-link"])*5     -->
+
+    <nav>
+        <header>Le Corpus de la Langue Lamo</header>
+        <img src="./image/01 homepage logo.png" alt="Logo" width="150px" height="150px">
+        <ul class="lang">
+            <li id="en"><a href="./02 introduction_en.html">English</a></li>
+            <li id="fr"><a href="./02 introduction_fr.html">Français</a></li>
+            <li id="cn"><a href="./02 introduction_cn.html">中文</a></li>
+            <li id="jp"><a href="#">日本語</a></li>
+            <li id="bo"><a href="#">བོད་སྐད་</a></li>
+        </ul>
+        <ul class="nav">
+            <li class="nav-item" id="home"><a href="./01 homepage_fr.html" class="nav-link">Accueil</a></li>
+            <li class="nav-item" id="intro"><a href="./02 introduction_fr.html" class="nav-link"
+                    type="_blank">Introduction</a></li>
+            <li class="nav-item" id="pho"><a href="#" class="nav-link">Phonetique &amp; Phonologie</a></li>
+            <li class="nav-item" id="morph"><a href="#" class="nav-link">Morpho-syntaxe</a></li>
+            <li class="nav-item" id="vocab"><a href="#" class="nav-link">Vocabulaire</a></li>
+            <li class="nav-item" id="narr"><a href="#" class="nav-link">Récits</a></li>
+            <li class="nav-item" id="conver"><a href="#" class="nav-link">Conversation</a></li>
+        </ul>
+    </nav>
+
+    <div class="intro">
+        <p>Cette section présente d'abord les quatre langues <b>tibéto-birmanes non tibétiques</b> parlées dans la
+            partie orientale de la région autonome du Tibet. Elle se concentre ensuite sur des informations de base sur
+            la langue Lamo, y compris la répartition géographique de ses deux variétés et leur affiliation généalogique.
+        </p>
+    </div>
+
+    <div id="image-container">
+        <img id="displayedImage" src="./image/02 Intro 01.jpg" alt="The landscape of the Dobbar Township">
+        <div class="button-container">
+            <button class="button" id="prevBtn" onclick="showPrevImage()">Dernier</button>
+            <button class="button" id="nextBtn" onclick="showNextImage()">Prochain</button>
+        </div>
+        <!-- Hidden container to store image paths -->
+        <div id="imagePaths" style="display: none;">
+            <span>./image/02 Intro 01.jpg</span>
+            <span>./image/02 Intro 02.jpg</span>
+            <span>./image/02 Intro 03.jpg</span>
+        </div>
+    </div>
+    <script src="./style/02 album_js.js"></script>
+
+    <div class="cont-container">
+        <article>
+            <section class="outline">
+                <h3>Table des matières</h3>
+                <ul>
+                    <p><a href="#t1">Quatre Langues Tibéto-Birmanes Non-Tibétiques au Tibet</a></p>
+                    <p><a href="#t2">Deux Variétés de Lamo</a></p>
+                    <p><a href="#t3">Affiliation généalogique</a></p>
+                    <p><a href="#t4">Bibliographie</a></p>
+                </ul>
+            </section>
+            <script src="./style/00 outline_sticky.js"></script>
+
+            <section class="content">
+                <h2 id="t1">Quatre Langues Tibéto-Birmanes Non-Tibétiques au Tibet</h2>
+                <p>Le <i>Chamdo Regional Gazetteer</i> (《昌都地区志》) (<a href="#biblio4">西藏昌都地区地方志编纂委员会, 2005, p. 819</a>)
+                    documente l'existence de trois dialectes à Chamdo qui ne sont pas intelligibles avec le tibétain de
+                    Kham. Ce sont <b>Zésong Huà</b> (则松话) dans le Comté de Chagyab (བྲག་གཡབ་རྫོང, 察雅县, cháyǎ xiàn),
+                    <b>Rúměi Huà</b> (如美话) dans le Comté de Markam (སྨར་ཁམས་རྫོང, 芒康县, mángkāng xiàn), et <b>Dōngbà
+                        Huà</b> (东坝话) dans le Comté de Zogang (མཛོ་སྒང་རྫོང, 左贡县, zuǒgòng xiàn). <a
+                        href="#biblio1">Suzuki &amp; Nyima (2016)</a> ont d'abord rapporté ces langues tibéto-birmanes
+                    non-tibétiques à Chamdo : <i>'Bo skad</i> et <i>sMar skad</i>. <a href="#biblio2">Nyima &amp; Suzuki
+                        (2019)</a> ont identifié quatre îlots linguistiques : <b>Lamo</b>, <b>gSerkhu</b>, <b>Larong
+                        sMar</b> et <b>Drag-yab sMar</b>.</p>
+                <p><b>Larong sMar</b> est parlé dans la région frontalière des Comtés de Zogang et Markam, par 17 000
+                    personnes. <b>Drag-yab</b> est parlé dans le Comté de Chagyab par environ 20 000 personnes. Ces deux
+                    langues correspondent à <i>sMar skad</i> et sont documentées par M. Zhao Haoliang, doctorant affilié
+                    à l'INALCO (Institut national des langues et civilisations orientales).</p>
+                <p>En revanche, le nombre de locuteurs du <b>Lamo</b> est beaucoup plus réduit, avec seulement 3 000
+                    personnes, principalement dans le Comté de Zogang. La situation du <b>gSerkhu</b> est encore plus
+                    critique, avec seulement 400 individus vivant dans le Comté de Zayü (རྫ་ཡུལ་རྫོང, 察隅县, cháyú xiàn),
+                    dans la Préfecture de Nyingchi (ཉིང་ཁྲི་གྲོང་ཁྱེར, 林芝市, línzhī shì). Étant donné la menace qui pèse
+                    sur ces langues, le gSerkhu et le Lamo nécessitent une documentation immédiate et une description
+                    complète. En raison de la proximité des zones frontalières, il est difficile de mener des recherches
+                    à long terme dans la région où le gSerkhu est parlé. Par conséquent, cette base de données se
+                    concentre sur la documentation et la description du <b>Lamo</b>.</p>
+            </section>
+
+            <section class="content">
+                <h2 id="t2">Deux Variétés de Lamo</h2>
+                <p>La langue Lamo est principalement parlée dans les deux cantons de Dobbar (སྟོབས་འབར་ཤང་, 东坝乡, dōngbà xiāng) et Zhonglinka (ཀྲུང་གླིང་ཁ་ཤང་, 中林卡乡, zhōnglínkǎ xiāng).</p>
+                <p>La langue Lamo se compose de deux dialectes, connus sous les noms de Lamo et Lamei, désignés respectivement par /la.mo/ et /la.mɛ/, comme identifié par <a href="#biblio3">Suzuki & Nyima (2021, p. 26)</a>. Ces deux variantes sont mutuellement intelligibles, avec des différences au niveau phonétique et lexical.</p>
+                <p>Selon les habitants locaux, le dialecte Lamo est parlé dans quatre des sept villages de Dobbar. Ces villages sont Jūnyōng, Géwǎ, Pǔkǎ et Jiābà. Le dialecte Lamei, quant à lui, est parlé dans trois des treize villages de Zhonglinka : Shízìkǎ, Luòbā et Ruòbā.</p>
+                <p>Le nombre exact de locuteurs à Dobbar a été confirmé lors de mon premier travail de terrain en juillet 2023, comme indiqué dans le tableau suivant.</p>
+                <table title="Population dans le canton de Dobbar">
+                    <caption>Population dans le canton de Dobbar</caption>
+                    <tr>
+                        <th>Village</th>
+                        <td>Jūnyōng (军拥村)</td>
+                        <td>Géwǎ (格瓦村)</td>
+                        <td>Pǔkǎ (普卡村)</td>
+                        <td>Jiābà (加坝村)</td>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <th>Ménages</th>
+                        <td>86</td>
+                        <td>54</td>
+                        <td>54</td>
+                        <td>96</td>
+                        <th>290</th>
+                    </tr>
+                    <tr>
+                        <th>Habitants</th>
+                        <td>337</td>
+                        <td>423</td>
+                        <td>313</td>
+                        <td>552</td>
+                        <th>1625</th>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="content">
+                <h2 id="t3">Affiliation généalogique</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non totam hic quas expedita in tempora
+                    quaerat magni praesentium cumque voluptate nam delectus earum, temporibus iure! Quam ea sed
+                    corrupti?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minus delectus assumenda cumque hic
+                    ex non ratione recusandae officiis, necessitatibus quaerat blanditiis libero fugiat. Doloremque
+                    quaerat quibusdam nostrum fugit cum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores provident repellendus, saepe
+                    adipisci in vero dignissimos iure esse eveniet, ipsum facere amet exercitationem quasi blanditiis
+                    quisquam dolore, obcaecati explicabo illum.</p>
+            </section>
+
+            <section class="content">
+                <h2 id="t4">Bibilographie</h2>
+                <p class="biblio" id="biblio1">Nyima, T., & Suzuki, H. (2019). Newly recognised languages in Chamdo:
+                    Geography, culture, history, and language. Linguistics of the Tibeto-Burman Area, 42(1), 38-81.</p>
+                <p class="biblio" id="biblio2">Suzuki, H., & Nyima, T. (2016). 'Bo skad, a newly recognised non-Tibetic
+                    variety spoken in mDzo sgang, TAR a brief introduction to its sociolinguistic situation, sounds, and
+                    vocabulary. 4th Workshop on Sino-Tibetan Languages of Southwest China, Seattle.</p>
+                <p class="biblio" id="biblio3">Suzuki, H., & Nyima, T. (2021). Evidential system of copulative and
+                    existential verbs in Lamo. Grammatical Phenomena of Sino-Tibetan Languages, 4, 258-287.</p>
+                <p class="biblio" id="biblio4">西藏昌都地区地方志编纂委员会. (2005). 昌都地区志 下. 北京：方志出版社.</p>
+            </section>
+        </article>
+    </div>
+
+    <hr />
+    <footer>
+        <p align="center">&copy; The Corpus of the Lamo Language. All rights reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+#image-container {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+#image-container img {
+    height: 400px;
+    width: auto;
+}
+.button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: maroon;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:disabled {
+    background-color: #cccccc;
+    columns: #cccccc;
+}
