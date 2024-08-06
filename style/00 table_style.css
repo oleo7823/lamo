@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Gentium;
+    src: url(../font/GentiumPlus-Regular.ttf);
+}
+
 table {
     text-align: center;
     margin:5px auto; 
@@ -21,6 +26,6 @@ td {
     padding: 3px;
 }
 
-table .ipa {
-    font-family: ;
+table.ipa td{
+    font-family: Gentium;
 }
