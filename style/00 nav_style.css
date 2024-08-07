@@ -9,26 +9,30 @@ nav {
 nav>header {
     font-size: 40px;
     font-weight: bold;
-    position: absolute;
+    position: absolute; /* Change to relative to work with flexbox centering */
     left: 50%;
     transform: translateX(-50%);
-    top: 10px;
+    text-align: center; /* Center text within header */
+    top: 40px;
     color: maroon;
 }
 
 nav.nav {
+    margin: 0 auto;
     width: 80%;
     background-color: maroon;
     border-left: 1px solid white;
     border-bottom: 1px solid white;
 }
 
-nav>ul {
+nav>ul.nav {
     list-style-type: none;
     display: inline-block;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
+    display: flex; /* Use flexbox to center ul elements */
+    justify-content: center; /* Center ul elements horizontally */
 }
 
 nav .nav-item {
@@ -61,6 +65,7 @@ nav li a:hover {
 }
 
 .lang {
+    list-style: none;
     background-color: transparent;
     text-decoration: none;
     position: absolute;
