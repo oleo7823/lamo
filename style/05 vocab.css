@@ -1,0 +1,41 @@
+#vocab-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pagination button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    background-color: brown;
+    color: gold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pagination button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
