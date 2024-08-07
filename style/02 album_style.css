@@ -15,10 +15,11 @@
     font-size: larger;
     color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .button:disabled {
-    background-color: #cccccc;
-    columns: #cccccc;
+    background-color: gray;
+    cursor: not-allowed;
 }

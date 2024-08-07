@@ -26,11 +26,13 @@ th, td {
 }
 
 #pagination button {
-    margin: 0 5px;
+    margin: 10px;
     padding: 10px 20px;
     background-color: brown;
-    color: gold;
+    color: white;
     border: none;
+    font-weight: bold;
+    font-size: larger;
     border-radius: 5px;
     cursor: pointer;
 }
