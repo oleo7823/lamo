@@ -37,7 +37,7 @@ section {
 
 /* Outline scrolling setting */
 section.outline {
-    width: 12%;
+    width: 13%;
     margin-left: 5px;
     margin-top: 20px;
     position: absolute;
@@ -54,7 +54,7 @@ section.outline a {
 /* Main content setting */
 section.content {
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 section.content p {

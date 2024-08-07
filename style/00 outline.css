@@ -1,0 +1,10 @@
+section.outline ul.t1t>p a {
+    font-weight: bold;
+}
+
+section.outline ul.t2t {
+    display: none;
+}
+section.outline ul.t2t>p a{
+    margin: auto 10px;
+}
