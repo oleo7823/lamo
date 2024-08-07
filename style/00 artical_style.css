@@ -9,7 +9,7 @@ div.intro p{
     text-indent: 2em;
 }
 
-h2, h3 {
+h2, h3, h4 {
     scroll-margin-top: 180px; /* Adjust this value based on the height of your sticky header */
     color: brown;
     margin: 5px 0;
